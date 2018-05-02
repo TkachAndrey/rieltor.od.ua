@@ -31,19 +31,19 @@
 						</a>
 					</div>
 					<div class="header__main-name">
-						<span class="header__main-name-olga">Ольга Мудрова</span><br>
-						<span>риэлтор помощник</span>
+						<div class="header__main-name-olga">Ольга Мудрова</div>
+						<div>риэлтор помощник</div>
 					</div>
 					<div class="header__contacts">
 						<div class="header__phone-number">
-							<a href="tel:+380674866616" class="phone-number">
+							<a href="tel:+380674866616" class="phone-number" itemprop="tel">
 								<span>+38&nbsp;</span>
 								<span class="circle">067</span>
 								<span>48-666-16</span>
 							</a>
 						</div>
 						<div class="header__email-address">
-							<a href="mailto:olga.mudrova@gmail.com" class="email-address">olga.mudrova@gmail.com</a>
+							<a href="mailto:olga.mudrova@gmail.com" class="email-address"><i class="far fa-envelope"></i>&nbsp;&nbsp;olga.mudrova@gmail.com</a>
 						</div>
 					</div>
 				</header>
@@ -95,7 +95,6 @@
 						<div class="section__about-left">
 						<h2 class="section__about-left-h2">Кратко...</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto non inventore! Iure voluptatem, recusandae asperiores qui distinctio sunt, est error aliquam!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto non in        ventore! Iure voluptatem, recusandae asperiores qui distinctio sunt, est error aliquam!</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto non in        ventore! Iure voluptatem, recusandae asperiores qui distinctio sunt, est error aliquam!</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto non in        ventore! Iure voluptatem, recusandae asperiores qui distinctio sunt, est error aliquam!</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto non in        ventore! Iure voluptatem, recusandae asperiores qui distinctio sunt, est error aliquam!</p>
@@ -269,27 +268,43 @@
 						</div>
 					</form>
 				</section>
-
-				<footer class="contacts">
+				<section class="section">
 					<h2 class="headline">Контакты</h2>
-					<div class="footer__contacts">
+					<div class="api2gis" id="map"></div>
 
-						<div class="footer__contacts-items">
+					<div class="section__contacts">
 
+						<div class="section__contacts-social">
+							<a href="viber://chat?number=%2B380984993970"><i class="fab fa-viber"></i></a>
+							<a href="tg://resolve?domain=<@palitra_mebeli>"><i class="fab fa-telegram-plane"></i></a>
+							<a href="mailto:palitra.mebeli.od@gmail.com"><i class="far fa-envelope"></i></a>
 						</div>
-						<div class="footer__contacts-items">
-							
+						<div class="section__contacts-adress">
+							<p class="address">Украина, <span itemprom="assressLocality">г. Одесса, </span><span itemprom="postalCode">65058</span></p>
+							<p itemprom="streetAddress">ул. Армейская, 8г</p>
+							<p>Офис 8</p>
+							<p class="web-address">www.rieltor.od.ua</p>
 						</div>
-						<div class="footer__contacts-items">
-							
-						</div>
-						<div class="footer__contacts-items">
-							
+						<div class="section__contacts-phone-email">
+							<div class="section__contacts__phone-number">
+								<a href="tel:+380674866616" class="phone-number" itemprop="tel">
+									<span>+38&nbsp;</span>
+									<span class="circle">067</span>
+									<span>48-666-16</span>
+								</a>
+							</div>
+							<div class="section__contacts__email-address">
+								<a href="mailto:olga.mudrova@gmail.com" class="email-address" itemprom="email"><i class="far fa-envelope"></i>&nbsp;&nbsp;olga.mudrova@gmail.com</a>
+							</div>
 						</div>
 					</div>
+				</section>
+
+				<footer class="footer">
+					
 				</footer>
 
-				<div class="api2gis" id="map"></div>
+				
 			</div>
 		</div>
 

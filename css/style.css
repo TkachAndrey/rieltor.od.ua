@@ -40,8 +40,9 @@ body{
 .header{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
 	border-bottom: 1px solid #000;
-	padding: 1.8rem 0;
+	padding: 1.5rem 0;
 }
 
 .header__logo{
@@ -53,9 +54,10 @@ body{
 }
 
 .header__main-name{
+	display: grid;
+	grid-gap: 0.5rem;
 	text-align: center;
 	font-size: 1.3rem;
-
 }
 
 .header__main-name-olga{
@@ -65,11 +67,14 @@ body{
 }
 
 .header__contacts{
+	display: grid;	grid-gap: 0.5rem;
 	text-align: right;
-	align-self: center;
+	align-items: center;
+	font-size: 1rem;
 }
+
 .header__phone-number{
-	margin-bottom: 1rem;
+	padding-top: 1.25rem;
 }
 .phone-number{
 	color: #000;
@@ -135,14 +140,6 @@ body{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	/*display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;*/
 }
 
 .nav__link{
@@ -391,36 +388,73 @@ button:hover{
 
 
 /* contacts*/
-.footer__contacts{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 1rem;
-	margin-bottom: 1rem;
-}
-.footer__contacts-items{
-	border: 1px solid #000;
-	width: 100%;
-	padding: 1rem 1.625rem;
-}
 .api2gis{
 	display: grid;
 	grid-template-columns: 1fr;
 	width:100%;
-	height:300px;
+	height:12.5rem;
 	margin-bottom: 1rem;
 	border: 1px solid #000;
 }
 
+.section__contacts{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	margin-bottom: 1rem;
+}
 
+.section__contacts>*{
+	width: 100%;
+}
+.section__contacts-social{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	text-align: left;
+	align-items: center;
+	font-size: 2.5rem;
+	
+}
 
+.section__contacts-social a{
+	color: #2ea8b3;
+	cursor: pointer;
+	text-decoration: none;
+}
 
+.fa-viber:hover{
+	color: #7b519d;
+}
+.fa-telegram-plane:hover{
+	color: #1c97d3;
+}
+.fa-envelope:hover{
+	color: #dd5347;
+}
 
+.section__contacts-phone-email{
+	display: grid;
+	grid-gap: 0.5rem;
+	text-align: right;
+	align-items: center;
+}
+.section__contacts-adress{
+	line-height: 1;
+	text-align: center;
+	padding: 0;
+}
+.section__contacts-adress p{
+	text-shadow: 4px;
+}
+/************end of contacts********/
 
+/***** footer****/
 
-/*применимо после*/
-
-transform: translateY(-20px);
-
+.footer{
+	border-top: 1px solid #000;
+	height: 1rem;
+}
 
 
 
