@@ -16,6 +16,7 @@ $(document).ready(function(){
 
       DG.marker([46.447804, 30.745851]).addTo(map).bindPopup('Мы здесь!');
    });
+    
 
 });
 

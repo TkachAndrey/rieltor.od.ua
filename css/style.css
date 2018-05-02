@@ -456,5 +456,10 @@ button:hover{
 	height: 1rem;
 }
 
-
+.circlephone,
+.circle-fill,
+.img-circle{
+	width:5rem;
+  	height:5rem;
+}
 
