@@ -16,7 +16,17 @@ $(document).ready(function(){
 
       DG.marker([46.447804, 30.745851]).addTo(map).bindPopup('Мы здесь!');
    });
-    
 
 });
 
+
+    
+
+    /* scroll down button */
+   function slowScroll(id){
+      var offset = 0;
+      $('html, body').animate({
+         scrollTop: $(id).offset ().top - offset
+      }, 2000);
+      return false;
+   }

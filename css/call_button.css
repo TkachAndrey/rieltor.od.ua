@@ -10,29 +10,29 @@
     z-index: 200000 !important;
 }
 .mypage-alo-ph-img-circle {
-        width: 30px;
-        height: 30px;
-        top: 43px;
-        left: 43px;
-        position: absolute;
-        background: rgba(30, 30, 30, 0.1) url(../images/phone-icon.png) no-repeat center center;
-        -webkit-border-radius: 100%;
-        -moz-border-radius: 100%;
-        border-radius: 100%;
-        border: 2px solid transparent;
-        opacity: .7;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-        -webkit-transform-origin: 50% 50%;
-        -moz-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-        -o-transform-origin: 50% 50%;
-        transform-origin: 50% 50%;
-        background-color: #0089B9;
-        background-size: 70%;
+    width: 30px;
+    height: 30px;
+    top: 43px;
+    left: 43px;
+    position: absolute;
+    background: rgba(30, 30, 30, 0.1) url(../images/phone-icon.png) no-repeat center center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .7;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background-color: #0089B9;
+    background-size: 70%;
 }
 .mypage-alo-ph-circle-fill {
     width: 60px;

@@ -14,10 +14,8 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/jquery.fancybox.min.css">
        	<link href="fonts/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
-       	<link rel="stylesheet" href="css/call_button.css">
        	<link rel="stylesheet" href="css/style.css">
-
-       	
+		<link rel="stylesheet" href="css/call_button.css">
         <!-- favicon -->
 		<link type="image/png" rel="shortcut icon" href="images/icons/favicon.png">
         <!-- Google Analytics counter -->
@@ -63,27 +61,27 @@
 					</div> -->
 					<ul class="nav__list" id="nav-main">
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a class="nav__link" href="javascript:void(0)" onclick="slowScroll('#about')">
 								Обо мне
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a class="nav__link" href="javascript:void(0)" onclick="slowScroll('#service')">
 								Услуги
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a class="nav__link" href="javascript:void(0)" onclick="slowScroll('#objects')">
 								Объекты
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a href="javascript:void(0)" onclick="slowScroll('#form')" class="nav__link">
 								Прицениться
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">
+							<a class="nav__link" href="javascript:void(0)" onclick="slowScroll('#contacts')">
 								Контакты
 							</a>
 						</li>
@@ -92,7 +90,7 @@
 
 				<!-- about -->
 
-				<section class="section">
+				<section class="section" id="about">
 					<h2 class="headline">Обо мне</h2>
 					<div class="section__about">
 						<div class="section__about-left">
@@ -109,14 +107,14 @@
 				
 				<!-- service -->
 
-				<section class="section">
+				<section class="section" id="service">
 					<h2 class="headline">Услуги</h2>
 					<div class="section__service">
 
 						<div class="section__service-item">
 							<div class="section__service-item-img" style="background-image: url(images/1.jpg)"></div>
 							<div class="section__service-item-content">
-								<h4 class="item-content-h4">Купить квартиру</h4>
+								<h4 class="item-content-h4" id="service">Купить квартиру</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto!</p>
 							</div>
 						</div>
@@ -171,7 +169,7 @@
 					</div>
 				</section>
 
-				<section class="section">
+				<section class="section" id="objects">
 					<h2 class="headline">Объекты</h2>
 					<div class="section__objects">
 						<div class="section__objects-item" style="background-image: url(images/1.jpg)">
@@ -212,7 +210,7 @@
 				</section>
 
 
-				<section class="section">
+				<section class="section"  id="form">
 					<h2 class="headline">Я хочу:</h2>
 					<form class="section__form" action="formdata.php" method="POST" name="form" id="form">
 
@@ -271,8 +269,9 @@
 						</div>
 					</form>
 				</section>
-				<section class="section">
-					<h2 class="headline">Контакты</h2>
+
+				<section class="section" id="contacts>
+					<h2 class="headline"">Контакты</h2>
 					<div class="api2gis" id="map"></div>
 
 					<div class="section__contacts">
