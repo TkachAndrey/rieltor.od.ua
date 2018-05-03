@@ -342,9 +342,18 @@ form{
 	grid-gap: 1.625rem;
 }
 
+.section__form-input-bezspama{
+	display: none;
+}
+
+.answer{
+	grid-column: 1/-1;
+	text-align: center;
+}
+
 
 input,
-button,
+input[type="submit"],
 select{
 	border: 1px solid #000;
 	color: #52b9bf;	
@@ -374,15 +383,13 @@ input::placeholder{
 }
 
 
-button{
+input[type="submit"]{
 	background: #52b9bf;
 	color: #000;
-
 }
  
 input:hover,
-select:hover,
-button:hover{
+select:hover{
 	transform: scale(1.05);
 }
 
@@ -456,6 +463,6 @@ button:hover{
 
 .footer{
 	border-top: 1px solid #000;
-	height: 1rem;
+	height: 1.5rem;
 }
 

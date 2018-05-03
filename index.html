@@ -10,16 +10,15 @@
        	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
       	<link href="https://fonts.googleapis.com/css?family=Lora:400,700&amp;subset=cyrillic" rel="stylesheet"> 
       	<!-- css -->
+      	<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normlize.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/jquery.fancybox.min.css">
        	<link href="fonts/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
-       	<link rel="stylesheet" href="css/style.css">
+       	
 		<link rel="stylesheet" href="css/call_button.css">
         <!-- favicon -->
 		<link type="image/png" rel="shortcut icon" href="images/icons/favicon.png">
-        <!-- Google Analytics counter -->
-		<!-- /Google Analytics counter -->
 		<title>Риэлтор</title>
     </head>
     <body class="page">
@@ -27,7 +26,7 @@
 			<div class="page__cell">
 				<header class="header">
 					<div class="header__logo">
-						<a href="#" class="logo">
+						<a href="/" class="logo">
 							<img src="images/logo2.png" alt="" class="logo__picture">
 						</a>
 					</div>
@@ -76,7 +75,7 @@
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:void(0)" onclick="slowScroll('#form')" class="nav__link">
+							<a href="javascript:void(0)" onclick="slowScroll('#section-form')" class="nav__link">
 								Прицениться
 							</a>
 						</li>
@@ -110,7 +109,6 @@
 				<section class="section" id="service">
 					<h2 class="headline">Услуги</h2>
 					<div class="section__service">
-
 						<div class="section__service-item">
 							<div class="section__service-item-img" style="background-image: url(images/1.jpg)"></div>
 							<div class="section__service-item-content">
@@ -174,55 +172,56 @@
 					<div class="section__objects">
 						<div class="section__objects-item" style="background-image: url(images/1.jpg)">
 							<a href="images/1.jpg" data-fancybox="gallery">
-							</a>
+							1</a>
 						</div>
 
 						<div class="section__objects-item" style="background-image: url(images/2.jpg)">
-							<a href="images/2.jpg" data-fancybox="gallery"></a>
+							<a href="images/2.jpg" data-fancybox="gallery">2</a>
 						</div>
 
 						<div class="section__objects-item" style="background-image: url(images/3.jpg)">
-							<a href="images/3.jpg" data-fancybox="gallery"></a>
+							<a href="images/3.jpg" data-fancybox="gallery">3</a>
 						</div>
 						
 						<div class="section__objects-item" style="background-image: url(images/4.jpg)">
-							<a href="images/4.jpg" data-fancybox="gallery"></a>
+							<a href="images/4.jpg" data-fancybox="gallery">4</a>
 						</div>
 						
-						<div class="section__objects-item" style="background-image: url(images/5.jpg)"><a href="images/5.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/5.jpg)"><a href="images/5.jpg" data-fancybox="gallery">5</a></div>
 						
-						<div class="section__objects-item" style="background-image: url(images/6.jpg)"><a href="images/6.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/6.jpg)"><a href="images/6.jpg" data-fancybox="gallery">6</a></div>
 						
-						<div class="section__objects-item" style="background-image: url(images/7.jpg)"><a href="images/7.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/7.jpg)"><a href="images/7.jpg" data-fancybox="gallery">7</a></div>
 						
-						<div class="section__objects-item" style="background-image: url(images/1.jpg)"><a href="images/1.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/1.jpg)"><a href="images/1.jpg" data-fancybox="gallery">8</a></div>
 						
-						<div class="section__objects-item" style="background-image: url(images/2.jpg)"><a href="images/2.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/2.jpg)"><a href="images/2.jpg" data-fancybox="gallery">9</a></div>
 
-						<div class="section__objects-item" style="background-image: url(images/3.jpg)"><a href="images/3.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/3.jpg)"><a href="images/3.jpg" data-fancybox="gallery">10</a></div>
 
-						<div class="section__objects-item" style="background-image: url(images/4.jpg)"><a href="images/4.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/4.jpg)"><a href="images/4.jpg" data-fancybox="gallery">11</a></div>
 
-						<div class="section__objects-item" style="background-image: url(images/5.jpg)"><a href="images/5.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/5.jpg)"><a href="images/5.jpg" data-fancybox="gallery">12</a></div>
 
-						<div class="section__objects-item" style="background-image: url(images/6.jpg)"><a href="images/6.jpg" data-fancybox="gallery"></a></div>
+						<div class="section__objects-item" style="background-image: url(images/6.jpg)"><a href="images/6.jpg" data-fancybox="gallery">13</a></div>
 					</div>
 				</section>
 
+				<!-- form -->
 
-				<section class="section"  id="form">
+				<section class="section" id="section-form">
 					<h2 class="headline">Я хочу:</h2>
 					<form class="section__form" action="formdata.php" method="POST" name="form" id="form">
 
 						<div class="section__form-select">
-							<select size="1" name="sell/buy">
+							<select size="1" name="sellBuy" required>
 								<option selected disabled>Продать/Купить&nbsp; &#9660</option>
 								<option value="продать">Продать</option>
 								<option value="купить">Купить</option>
 							</select>
 						</div>
 						<div class="section__form-select">
-							<select size="1" name="property">
+							<select size="1" name="property" required>
 								<option selected disabled>Что именно?&nbsp; &#9660</option>
 								<option value="квартиру">Квартиру</option>
 								<option value="квартиру в новострое">Квартиру в Новострое</option>
@@ -246,7 +245,7 @@
 							</select>
 						</div>
 						<div class="section__form-select">
-							<select size="1" name="city part" required>
+							<select size="1" name="location" required>
 								<option selected disabled>Район города		&nbsp; &#9660</option>
 								<option value="Киевский">Киевский</option>
 								<option value="Малиновский">Малиновский</option>
@@ -264,9 +263,17 @@
 						<div class="section__form-input">
 							<input type="tel" name="tel" placeholder="380..." required pattern="380[0-9]{9}" minlength="12" maxlength="12" autocomplete="on">
 						</div>
-						<div class="section__form-input">
-							<button class="button">Прицениться!</button>
+						
+						<div class="section__form-input-bezspama">
+							<input name="bezspama" type="text" value="" class="bezspama">
 						</div>
+
+						<div class="section__form-input">
+							<input type="submit" value="Прицениться">
+						</div>
+
+						<div id="answer" class="answer"></div>
+
 					</form>
 				</section>
 
@@ -323,6 +330,14 @@
 		<script src="js/script.js"></script>
 		<!-- api 2gis -->
 		<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=basic""></script>
-
+		 <!-- Google Analytics counter -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118651557-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-118651557-1');
+		</script>
+		<!-- /Google Analytics counter -->
     </body>
 </html>

@@ -17,6 +17,25 @@ $(document).ready(function(){
       DG.marker([46.447804, 30.745851]).addTo(map).bindPopup('Мы здесь!');
    });
 
+
+   $("#form").submit(function(event) {
+      event.preventDefault();
+      $.ajax({
+         url: "formdata.php",
+         beforeSend: function() {
+            $("#load").fadeIn(400);
+         },
+         type: "post",
+         data: $("#form").serialize(),
+         success: function(answer) {
+            $("#answer").html(answer);
+         }
+      }).done(function() {
+         $("#answer").fadeOut(5000);
+         $("#form")[0].reset(5000);
+      });
+   });
+
 });
 
 
