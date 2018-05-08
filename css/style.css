@@ -234,12 +234,13 @@ body{
 
 .section__about{
 	display              : grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 60% 40%;
 	border               : 1px solid #000;
 }
 
 .section__about-left-h2{
 	text-align: center;
+	margin: 0;
 }
 
 .section__about-left{
@@ -366,6 +367,7 @@ body{
 .section__form{
 	padding-bottom: 1.625rem;
 	padding-top   : 1.625rem;
+	border-bottom: 1px solid #000;
 }
 
 form{
@@ -494,7 +496,5 @@ select:hover{
 /***** footer****/
 
 .footer{
-	border-top: 1px solid #000;
-	height: 1.5rem;
 }
 
