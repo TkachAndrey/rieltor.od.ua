@@ -31,8 +31,8 @@ $(document).ready(function(){
             $("#answer").html(answer);
          }
       }).done(function() {
-         $("#answer").fadeOut(5000);
-         $("#form")[0].reset(5000);
+         $("#answer").fadeOut(8000);
+         $("#form")[0].reset(8000);
       });
    });
 

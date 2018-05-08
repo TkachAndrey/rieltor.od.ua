@@ -68,7 +68,8 @@ body{
 }
 
 .header__contacts{
-	display    : grid;	grid-gap: 0.5rem;
+	display    : grid;
+	grid-gap: 0.5rem;
 	text-align : right;
 	align-items: center;
 	font-size  : 1rem;
@@ -488,8 +489,8 @@ select:hover{
 	text-align : center;
 	padding    : 0;
 }
-.section__contacts-adress p{
-	text-shadow: 4px;
+.section__contacts__email-address{
+	margin-top: 1rem;
 }
 /************end of contacts********/
 
