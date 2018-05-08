@@ -242,6 +242,7 @@ body{
 .section__about-left-h2{
 	text-align: center;
 	margin: 0;
+	color: #2ea8b3;
 }
 
 .section__about-left{
@@ -264,24 +265,19 @@ body{
 	display              : grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap             : 1.5rem;
-	align-items          : center;
 }
 
 .section__service-item{
-	display           : grid;
-	grid-template-rows: 1fr 1fr;
-	transition        : transform 0.5s ease;	color: #000;
-	border            : 1px solid #000;
-	text-decoration   : none;
-	box-shadow        : 4px 4px 4px #aaa;
-}
-
-.section__service-item:nth-child(6){
-	grid-column: 2/4;
+	transition     : transform 0.5s ease;
+	color          : #000;
+	border         : 1px solid #000;
+	text-decoration: none;
+	box-shadow     : 4px 4px 4px #aaa;
+	padding        : 1rem;
 }
 
 .section__service-item:hover{
-	transform: scale(1.03);
+	transform: scale(1.02);
 }
 
 .section__service-item-img{
@@ -292,7 +288,7 @@ body{
 }
 
 .section__service-item-content{
-	padding      : 1.57rem;
+	padding-top  : 1.2rem;
 	text-align   : center;
 	align-content: center;
 }
@@ -309,7 +305,6 @@ body{
 	color        : #333;
 	line-height  : 1.625rem;
 	margin-top   : 1.25rem;
-	margin-bottom: 0;
 }
 
 /********* end of service **********/
@@ -459,13 +454,19 @@ select:hover{
 	text-align           : left;
 	align-items          : center;
 	font-size            : 2.5rem;
-	
 }
+
+.section__contacts-social a:hover{
+	transform: scale(1.15);
+}
+
+
 
 .section__contacts-social a{
 	color          : #2ea8b3;
 	cursor         : pointer;
 	text-decoration: none;
+	transition        : transform 0.7s ease;
 }
 
 .fa-viber:hover{
